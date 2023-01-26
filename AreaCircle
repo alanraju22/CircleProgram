@@ -1,15 +1,14 @@
-class AreaCircle
+class AreaCircleParameter
 {
-	static void area()
+	static void area(int r)
 	{
 		final double pi=3.142;
-		int r=6;
 		double area=pi*r*r;
 		System.out.println(area);
 		return;
 	}
 	public static void main(String[] args) 
 	{
-		area();
+		area(6);
 	}
 }
